@@ -100,7 +100,7 @@ def generation(grid):
 
 
 
-grid = Grid(24,24)
+grid = Grid(int(input('Length of x axis: ')),int(input('Length of y axis: ')))
 
 grid.random_state()
 grid.displaygrid()
