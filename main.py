@@ -1,5 +1,6 @@
 from random import random
 from cell import Cell
+from time import sleep
 
 class Grid():
     def __init__(self, sizex, sizey):
@@ -94,6 +95,7 @@ class Grid():
     
 def generation(grid):
     while 1:
+        sleep(0.1)
         grid.next_board()
         grid.displaygrid()
             
