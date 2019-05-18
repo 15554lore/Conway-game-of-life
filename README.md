@@ -15,3 +15,5 @@ Rules:
 5.) Any living cell with 2 or 3 neighbours survives to the next generation
 
 Any improvements will be helpful
+
+It runs in the terminal
